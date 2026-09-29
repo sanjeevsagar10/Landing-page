@@ -1,0 +1,39 @@
+ h2{
+    margin-top: 100px;
+    font-family:roboto condensed;
+    margin-left:10px;
+}
+.packagegallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  
+}
+
+.packagegallery img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius:14px;
+}
+.galleryitem {
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.galleryitem img {
+  transition: transform 0.3s ease;
+}
+
+.galleryitem:hover img {
+  transform: scale(1.1);
+}
+body{
+  background-color: linen;
+}
+#gallery h1{
+  text-align: center;
+  font-size:90px;
+  font-family: bebas neue;
+}
+

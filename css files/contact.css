@@ -1,0 +1,38 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  gap: 6px;
+  margin-bottom: 40px;
+  
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+button {
+  background-color: goldenrod;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.contact-info p {
+  margin: 6px 0;
+}
+#contact{
+    margin-left:600px;
+    margin-bottom:100px;
+}
+body{
+    background-color: antiquewhite;
+}
+#contact button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+#homepage {
+  height: 500px;
+  text-align: center;
+  color: white;
+  padding-top: 180px;
+  background-color:transparent
+}
+.homedeco {
+  background-color:goldenrod;
+  color: black;
+  padding: 18px 45px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+#homebox{
+    display: inline-block;
+  background-color: white;
+  padding: 100px 200px;
+  color: black;
+  border-radius:14px;
+}
+#why-us {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.why-icon {
+  font-size: 40px;
+  margin: 0;
+}
+
+.why-text{
+    font-size: 30px;
+}
+.why-box{
+    display:inline-block;
+    background-color:white;
+    padding:30px 50px;
+    color:black;
+    border-radius:14px;
+}
+
+#homebox h1{
+    font-size: 48px;
+}
+#homebox p {
+  font-size: 30px;
+}
+body{
+  background-image:url(/images/bground.jpg);
+}

@@ -1,0 +1,16 @@
+#thankyou-box {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#thankyou-box h2 {
+  color: goldenrod;
+  margin-bottom: 16px;
+  font-size: 40px;
+}
+
+#thankyou-box p {
+  max-width: 500px;
+  margin: 0 auto 30px;
+  font-size: 30px;
+}
