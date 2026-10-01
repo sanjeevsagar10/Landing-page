@@ -1,9 +1,8 @@
 #whychoose{
   margin-top: 200px;
   margin-left:20px;
-  margin-right:20px; 
-  width: auto;
-  height: auto;
+  margin-right:20px;
+  margin-bottom:200px; 
   background-color: white;
   border-radius: 8px;
   
@@ -14,6 +13,8 @@
     0 16px 32px gainsboro;
 
     position:relative;
+
+   padding:10px; 
 }
 
 .aboutimage1{
@@ -31,5 +32,5 @@
   color:midnightblue;
 }
 body{
-  background-image: url(/aboutbground.jpg);
+  background-image: url(/images/aboutbground.jpg);
 }
